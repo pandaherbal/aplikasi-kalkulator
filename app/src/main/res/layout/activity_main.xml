@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#3A3939"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:layout_weight="4"
+            android:background="#3A3939"
+            android:fontFamily="@font/baloo_tammudu"
+
+            android:textAlignment="textEnd"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="456dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/hasil2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_span="1"
+            android:layout_weight="1"
+            android:background="#3A3939"
+            android:fontFamily="@font/baloo_tammudu"
+            android:textAlignment="viewEnd"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/tujuh"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="7"
+            android:textSize="34sp"
+            app:backgroundTint="#0000"/>
+
+        <Button
+            android:id="@+id/delapan"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="8"
+            android:textSize="34sp"
+            app:backgroundTint="#0000" />
+
+        <Button
+            android:id="@+id/sembilan"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+
+            android:text="9"
+            android:textSize="34sp"
+            app:backgroundTint="#0000" />
+
+        <Button
+            android:id="@+id/kali"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="*"
+            android:textSize="34sp"
+            app:backgroundTint="#FF9800" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/empat"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="4"
+            android:textSize="34sp"
+            app:backgroundTint="#0000" />
+
+        <Button
+            android:id="@+id/lima"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="5"
+            android:textSize="34sp"
+            app:backgroundTint="#0000" />
+
+        <Button
+            android:id="@+id/enam"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="6"
+            android:textSize="34sp"
+            app:backgroundTint="#0000" />
+
+        <Button
+            android:id="@+id/kurang"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="-"
+            android:textSize="34sp"
+            app:backgroundTint="#FF9800" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/satu"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="1"
+            android:textSize="34sp"
+            app:backgroundTint="#0000" />
+
+        <Button
+            android:id="@+id/dua"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="2"
+            android:textSize="34sp"
+            app:backgroundTint="#0000" />
+
+        <Button
+            android:id="@+id/tiga"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="3"
+            android:textSize="34sp"
+            app:backgroundTint="#0000" />
+
+        <Button
+            android:id="@+id/tambah"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="+"
+            android:textSize="34sp"
+            app:backgroundTint="#FF9800" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/koma"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="."
+            android:textSize="34sp"
+            app:backgroundTint="#0000" />
+
+        <Button
+            android:id="@+id/nol"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="0"
+            android:textSize="34sp"
+            app:backgroundTint="#0000" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="C"
+            android:textSize="34sp"
+            app:backgroundTint="#0000" />
+
+        <Button
+            android:id="@+id/bagi"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="/"
+            android:textSize="34sp"
+            app:backgroundTint="#FF9800" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/sama_dengan"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#6750A3"
+            android:fontFamily="@font/baloo_tammudu"
+            android:text="="
+            android:textSize="34sp"
+            app:backgroundTint="#FF9800" />
+
+    </TableRow>
+
+</TableLayout>
